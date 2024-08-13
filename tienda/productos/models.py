@@ -21,4 +21,4 @@ class Producto(models.Model):
         return str(self.nombre)
 
 
-#Este es un comentario que voy a agregar al repo de prueba.
+
