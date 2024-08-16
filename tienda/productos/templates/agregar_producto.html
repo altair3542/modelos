@@ -12,7 +12,6 @@
       <ul>
         {% for field in form %}
           {% if field.errors %}  <!-- Muestra errores específicos de cada campo -->
-            <li>{{ field.label }}: {{ field.errors }}</li>
           {% endif %}
         {% endfor %}
       </ul>
